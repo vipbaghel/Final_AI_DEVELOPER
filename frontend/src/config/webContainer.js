@@ -1,4 +1,5 @@
-import { WebContainer } from '@webcontainer/api';
+import webcontainer from "../config/WebContainer";
+
 
 let webContainerInstance = null;
 
