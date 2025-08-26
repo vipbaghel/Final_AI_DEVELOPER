@@ -1,0 +1,15 @@
+    {
+      "version": 2,
+      "builds": [
+        {
+          "src": "index.js", // Your backend's entry point
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "src": "/(.*)", // Route all requests to your backend entry point
+          "dest": "index.js"
+        }
+      ]
+    }
