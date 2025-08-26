@@ -5,7 +5,7 @@ import Register from '../screens/Register'
 import Home from '../screens/Home'
 import Project from '../screens/Project'
 import UserAuth from '../auth/UserAuth'
-import FrontPage from '../screens/FrontPage'
+import FrontPage from '../screens/Frontpage'
 
 const AppRoutes = () => {
     return (
